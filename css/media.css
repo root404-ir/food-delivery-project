@@ -1,0 +1,197 @@
+@media (max-width:1258px) {
+    .login-signin {
+        padding-left: 25px;
+    }
+
+    .section-search-location img {
+        max-width: 120px;
+    }
+
+    .content-search-location h6 {
+        font-size: 32px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .nav-list {
+        padding: 0;
+    }
+
+    .navigation>ul {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .menu-burger {
+        display: flex;
+        align-items: center;
+    }
+
+    .login-signin {
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .img-mobile-app {
+        grid-row: 2;
+        grid-column: 1 span;
+    }
+
+    .img-mobile-app img {
+        left: 39px;
+    }
+
+    .content-mobile-app {
+        grid-column: 2 span;
+    }
+}
+
+@media (max-width:676px) {
+    .header-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-text-content {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .header-text-content h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .header-text-content p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .header-img-content {
+        margin: 0 auto;
+    }
+
+    .food-order-desktop {
+        display: none;
+    }
+
+    .action-order {
+        justify-content: center;
+    }
+
+    .price-info-order {
+        text-align: center;
+    }
+
+    .order-now button {
+        width: auto;
+        padding: 10px 10px;
+    }
+
+    .box-delivery {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 29%;
+    }
+
+    .section-app-mobile {
+        max-width: 100%;
+        border-radius: 500px 500px 0 0;
+    }
+
+    .content-mobile-app {
+        text-align: center;
+    }
+
+    .img-mobile-app {
+        grid-column: 2 span;
+        justify-self: center;
+    }
+
+    .img-mobile-app img {
+        max-width: 200px;
+        left: 0;
+    }
+
+}
+
+@media (min-width:677px) {
+    .food-order-mobile {
+        display: none;
+    }
+}
+
+@media (max-width:834px) {
+    .grid-food-product {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .content-search-location h6 {
+
+        font-size: 24px;
+    }
+
+    .content-search-location form button {
+
+        padding: 6px 10px;
+        top: 15px;
+    }
+    .content-search-location form input[type=text]::placeholder
+    {
+        font-size: 10px;
+    }
+    .content-search-location form
+    {
+        width: 77%;
+    }
+    .info-section
+    {
+        grid-row: 2;
+        grid-column: 2 span;
+        justify-self: center;
+    }
+    .logo-footer
+    {
+        margin-top: 20px;
+    }
+    .grid-section-footer
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .links-footer
+    {
+        justify-self: center;
+    }
+}
+
+@media (max-width:576px) {
+    .grid-food-product {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .section-search-location img:nth-child(4) {
+        top: 322px;
+        max-width: 70px;
+    }
+
+    .section-search-location img:last-child {
+        bottom: 0;
+        left: 65%;
+    }
+    .content-search-location h6
+    {
+        font-size: 21px;
+    }
+    .content-search-location p
+    {
+        font-size: 13px;
+    }
+}
